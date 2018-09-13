@@ -64,7 +64,7 @@ leds.update(Leds.rgb_off())
 time.sleep(0.15)
 
 while True:
-    # whenever the putton is pushed and released, take a photo
+    # whenever the button is pushed and released, take a photo
     button.when_released = capture
     # whenever the button is held for 2 seconds, shutdown
     button.when_held = shutdown
