@@ -1,6 +1,7 @@
-AIY Vision Auto Cam
+# AIY Vision Auto Cam
 
-camera_button_svc.py
+## camera_button_svc.py
+
 This script simply runs a basic camera on the Google AIY Vision kit.
 
 * The LED will blink Red, Yellow, then green when ready
@@ -15,6 +16,8 @@ At the bottom, put:
 
     @reboot sleep 10;python3 /home/pi/camera_button_svc.py
 
-camera_button.py
+## camera_button.py
 
 This script can be run from the command line. It will blink when you push the button to take a photo and will list the photo name it saved.
+
+    ./camera_button.py
